@@ -15,16 +15,16 @@ function Heading() {
           </div>
           <div className="nav-container">
             <nav className="nav">
-              <Link className="links" to="#home" spy={true} smooth={true} offset={50} duration={500}>
+              <Link className="links" to="#home" spy="true" smooth={true} offset={50} duration={500}>
                 Home
               </Link>
-              <Link className="links" to="#projects" spy={true} smooth={true} offset={50} duration={500}>
+              <Link className="links" to="#projects" spy="true" smooth={true} offset={50} duration={500}>
                 Projects
               </Link>
-              <Link className="links" to="#about" spy={true} smooth={true} offset={50} duration={500}>
+              <Link className="links" to="#about" spy="true" smooth={true} offset={50} duration={500}>
                 About
               </Link>
-              <Link className="links" to="#contact" spy={true} smooth={true} offset={50} duration={500}>
+              <Link className="links" to="#contact" spy="true" smooth={true} offset={50} duration={500}>
                 Contacts
               </Link>
             </nav>
