@@ -9,7 +9,26 @@ body {
   background-color: #f4f0ec;
 }
 
+::-webkit-scrollbar {
+  /* width: 18px; */
+  width: 13px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #472425b1;
+  border-radius: 25px;
+}
+
 /** Fonts */
 /* font-family: 'Poppins', sans-serif;
 font-family: 'Yantramanav', sans-serif; */
 /** Fonts */
+
+/* padding-top
+padding-right
+padding-bottom
+padding-left */

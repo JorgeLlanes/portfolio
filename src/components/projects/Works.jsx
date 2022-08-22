@@ -4,9 +4,9 @@ import "./works.css";
 function Works() {
   return (
     <div>
-      <section className="works-container">
+      <section className="works-container" id="projects">
         <div className="works">
-          <h1 className="works-title">SOME OF</h1>
+          <h1 className="works-title" id="project">SOME OF</h1>
           <h1 className="works-title2">MY WORKS</h1>
         </div>
         <div className="works-para-container">

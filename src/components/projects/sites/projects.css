@@ -2,31 +2,26 @@
 
 .project1 {
   width: 30%;
-  position: relative;
-  right: 20vw;
+  margin-right: 40vw;
   padding-bottom: 200px;
 }
 
 .project2 {
   width: 30%;
-  position: relative;
-  left: 25vw;
-  bottom: -5vw;
+  margin-left: 45vw;
+  margin-top: 20vh;
 }
 
 .project3 {
   width: 30%;
-  position: relative;
-  top: 18vh;
-  right: 26vw;
+  margin-top: 20vh;
+  margin-right: 45vw;
 }
 
 .project4 {
   width: 30%;
-  position: relative;
-  top: 50vh;
-  left: 20vw;
-  padding-bottom: 550px;
+  margin-top: 20vh;
+  margin-left: 45vw;
 }
 
 /** ----------------------------------------Num/Title START---------------------------------------- */
@@ -79,11 +74,16 @@ h3 {
   color: #472425;
 }
 
+.info-arrow a:hover {
+    color: #4724257a;
+    transition-duration: 400ms;
+}
+
 .space {
   width: 100%;
   height: 1px;
   /* border: 1px dashed #472425; */
-  border-bottom: 2.5px dashed #472425;
+  border-bottom: 2.8px dashed #472425;
 }
 
 /** ----------------------------------------Info/Area END---------------------------------------- */

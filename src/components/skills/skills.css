@@ -1,0 +1,94 @@
+/** -------------------------------------Title/Ani START-------------------------------------- */
+
+.ticker {
+  width: 100%;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1em;
+  overflow: hidden;
+  font-size: 11.4583333333vw;
+  padding: 400px 0px 0px 0px;
+}
+
+.ticker__items {
+  display: flex;
+  white-space: nowrap;
+  align-items: center;
+  justify-content: center;
+  color: #472425;
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  /* Apply animation to this element */
+  -moz-animation: example1 25s linear infinite;
+  -webkit-animation: example1 25s linear infinite;
+  animation: example1 25s linear infinite;
+}
+@keyframes example1 {
+  0% {
+    -moz-transform: translateX(-100%); /* Firefox bug fix */
+    -webkit-transform: translateX(-100%); /* Firefox bug fix */
+    transform: translateX(-100%);
+  }
+  100% {
+    -moz-transform: translateX(100%); /* Firefox bug fix */
+    -webkit-transform: translateX(100%); /* Firefox bug fix */
+    transform: translateX(100%);
+  }
+}
+
+.p-skills {
+  font-size: 0.8vw;
+  color: #472425;
+  /* min-width: 100px; */
+  max-width: 200px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+
+/** -------------------------------------Title/Ani END-------------------------------------- */
+
+/** -------------------------------------Skills/Icons START-------------------------------------- */
+
+.skills-section {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto;
+  justify-content: space-evenly;
+  padding: 10px;
+  padding-top: 100px;
+}
+
+.skills-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 20px;
+}
+
+.skills-icons p {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 20px;
+  color: #472425;
+}
+.icons {
+  font-size: 8.3rem;
+  color: #472425;
+  cursor: pointer;
+}
+.icons:hover {
+  transition-duration: 400ms;
+  transform: translate(0px, -10px);
+  color: #472425d9;
+}
+
+/** -------------------------------------Skills/Icons END-------------------------------------- */
+
+/* padding-top
+padding-right
+padding-bottom
+padding-left */
