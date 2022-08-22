@@ -78,7 +78,7 @@
 .icons {
   font-size: 8.3rem;
   color: #472425;
-  cursor: pointer;
+  cursor: default;
 }
 .icons:hover {
   transition-duration: 400ms;
