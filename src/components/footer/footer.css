@@ -31,3 +31,16 @@
 .copyright-footer {
   font-size: 23px;
 }
+
+@media (max-width: 870px) {
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* padding-top: 2vh; */
+    /* align-items: center; */
+  }
+  .icon-time {
+    padding-bottom: 20px;
+  }
+}

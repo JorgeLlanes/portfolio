@@ -75,8 +75,8 @@ h3 {
 }
 
 .info-arrow a:hover {
-    color: #4724257a;
-    transition-duration: 400ms;
+  color: #4724257a;
+  transition-duration: 400ms;
 }
 
 .space {
@@ -109,3 +109,63 @@ h3 {
 padding-right
 padding-bottom
 padding-left */
+
+@media (max-width: 1536px) {
+  .info-arrow p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .info-arrow p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .info-arrow p {
+    font-size: 10px;
+  }
+  .info-arrow a {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 940px) {
+  .info-arrow p {
+    font-size: 10px;
+  }
+  .info-arrow a {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .info-arrow p {
+    font-size: 8px;
+    padding: 10px 20px 10px 0px;
+  }
+  .info-arrow a {
+    font-size: 40px;
+  }
+  .num-title h3 {
+    font-size: 21px;
+  }
+}
+
+@media (max-width: 640px) {
+  .info-arrow p {
+    font-size: 6.8px;
+    padding: 10px 10px 10px 0px;
+  }
+  .info-arrow a {
+    font-size: 35px;
+  }
+  .num-title h3 {
+    font-size: 20px;
+  }
+  .sec-1 {
+    
+    padding-top: 140px;
+  }
+}

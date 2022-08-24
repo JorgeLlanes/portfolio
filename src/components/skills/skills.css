@@ -92,3 +92,34 @@
 padding-right
 padding-bottom
 padding-left */
+
+@media (max-width: 1280px) {
+  .p-skills {
+    font-size: 1vw;
+  }
+}
+
+@media (max-width: 1024px) {
+  .p-skills {
+    font-size: 1.3vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .p-skills {
+    font-size: 1.8vw;
+  }
+  .skills-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 640px) {
+  .skills-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .p-skills {
+    font-size: 1.9vw;
+  }
+}

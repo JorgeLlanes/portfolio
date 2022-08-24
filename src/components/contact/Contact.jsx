@@ -1,13 +1,19 @@
 import React from "react";
 import "./contact.css";
-import { GiTexas } from "react-icons/gi"
+import { GiTexas } from "react-icons/gi";
 
 function Contact() {
   return (
     <div>
       <div className="contact-container">
         <div>
-          <h1 className="contact-title">GET IN T<span className="tx" id="contact"><GiTexas/></span>UCH</h1>
+          <h1 className="contact-title">
+            GET IN T
+            <span className="tx" id="contact">
+              <GiTexas />
+            </span>
+            UCH
+          </h1>
         </div>
         <div className="links-comments">
           <section>
@@ -21,7 +27,9 @@ function Contact() {
               <a href="https://www.instagram.com/" className="links-social">
                 <li>INSTAGRAM</li>
               </a>
-              <a href="https://www.linkedin.com/in/jorgellanes/" className="links-social">
+              <a
+                href="https://www.linkedin.com/in/jorgellanes/"
+                className="links-social">
                 <li>LINKEDIN</li>
               </a>
             </ul>

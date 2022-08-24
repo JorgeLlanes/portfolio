@@ -4,3 +4,9 @@
   padding-bottom: 80px;
   font-weight: bolder;
 }
+
+@media (max-width: 870px) {
+  .scroll {
+    padding-bottom: 1px;
+  }
+}

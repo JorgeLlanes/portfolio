@@ -50,9 +50,61 @@
 
 /** -------------------------------------About END-------------------------------------- */
 
-
 /* .img-hacker{
     filter: grayscale(1);
     width: 26.5vw;
     height: auto;
 } */
+
+@media (max-width: 1536px) {
+  .three-values p {
+    max-width: 15vw;
+  }
+}
+
+@media (max-width: 1280px) {
+  .three-values p {
+    max-width: 18vw;
+    font-size: 20px;
+  }
+  .story-para {
+    font-size: 19px;
+    max-width: 30vw;
+  }
+}
+
+@media (max-width: 1024px) {
+  .three-values p {
+    font-size: 17px;
+  }
+  .story-para {
+    font-size: 15px;
+  }
+}
+@media (max-width: 838px) {
+  .three-values p {
+    font-size: 15px;
+  }
+  .story-para {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .three-values p {
+    font-size: 12px;
+  }
+  .story-para {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 640px) {
+  .three-values p {
+    padding-top: 180px;
+
+  }
+  .story-para {
+    font-size: 10px;
+  }
+}

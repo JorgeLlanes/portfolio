@@ -47,3 +47,44 @@
 }
 
 /** -------------------------------------Title-Para End-------------------------------------- */
+
+@media (max-width: 1536px) {
+  .works-para {
+    width: 15vw;
+  }
+}
+
+@media (max-width: 1280px) {
+  .works-para {
+    width: 15vw;
+  }
+}
+
+@media (max-width: 1024px) {
+  .works-para {
+    font-size: 18px;
+    width: 19vw;
+  }
+  .works-para-container {
+    padding-right: 330px;
+  }
+}
+
+@media (max-width: 768px) {
+  .works-para {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 640px) {
+  .works-container {
+    padding-top: 200px;
+  }
+  .works-para-container {
+    padding-right: 200px;
+  }
+  .works-para {
+    font-size: 10px;
+    width: 20vw;
+  }
+}
