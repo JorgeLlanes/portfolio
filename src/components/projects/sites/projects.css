@@ -165,7 +165,51 @@ padding-left */
     font-size: 20px;
   }
   .sec-1 {
-    
     padding-top: 140px;
+  }
+}
+
+@media (max-width: 470px) {
+  .project1 {
+    width: 40%;
+  }
+
+  .project2 {
+    width: 40%;
+  }
+
+  .project3 {
+    width: 40%;
+  }
+
+  .project4 {
+    width: 40%;
+  }
+}
+
+@media (max-width: 414px) {
+  .project1 {
+    width: 65%;
+    margin: 10vw;
+    padding-bottom: 100px;
+  }
+
+  .project2 {
+    width: 65%;
+    margin: 10vw;
+    padding-bottom: 100px;
+  }
+  .project3 {
+    width: 65%;
+    margin: 10vw;
+    padding-bottom: 100px;
+  }
+  .project4 {
+    width: 65%;
+    margin: 10vw;
+    padding-bottom: 5px;
+  }
+  .info-arrow p {
+    font-size: 10px;
   }
 }

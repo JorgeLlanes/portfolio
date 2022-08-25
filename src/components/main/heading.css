@@ -89,7 +89,54 @@
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
 } */
-
+.toggle-button {
+  position: fixed;
+  top: 0.75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: #472425;
+  border-radius: 10px;
+}
+.MR-NAV {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../../images/check.webp");
+  background-size: cover;
+  height: 12vh;
+  width: 100%;
+}
+.linkss {
+  display: flex;
+  color: #f4f0ec;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+  text-decoration: none;
+}
+.link1 {
+  padding-bottom: 30px;
+}
+.link2 {
+  padding-top: 30px;
+}
+.link3 {
+  padding-bottom: 30px;
+}
+.link4 {
+  padding-top: 30px;
+}
 /** -------------------------------------Para/Job Start---------------------------------------- */
 
 @media (max-width: 1536px) {
@@ -162,11 +209,82 @@
     color: #472425;
   }
   .name-nav {
-    
     padding-bottom: 40px;
   }
   .para-title {
-    
     padding-top: 50px;
+  }
+}
+
+@media (max-width: 590px) {
+  .nav {
+    display: none;
+  }
+  .toggle-button {
+    display: flex;
+  }
+  .para-title {
+    flex-direction: column-reverse;
+    padding-left: 145px;
+  }
+  .para {
+    padding-top: 70px;
+    font-size: 7px;
+  }
+}
+
+@media (max-width: 470px) {
+  .para {
+    padding-top: 70px;
+    font-size: 7.5px;
+    max-width: 30vw;
+  }
+}
+
+@media (max-width: 414px) {
+  .name-nav {
+    padding: 100px;
+    padding-left: 50px;
+    padding-top: 215px;
+  }
+  .first-name {
+    line-height: 0.2em;
+    padding-top: 40px;
+    font-size: 3.9rem;
+  }
+  .para-title {
+    padding-left: 110px;
+  }
+  .job-title {
+    line-height: 0.2em;
+    padding-top: 40px;
+    font-size: 3.9rem;
+  }
+  .MR-NAV {
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    height: 25vh;
+  }
+  .link1 {
+    padding: 10px;
+  }
+  .link2 {
+    padding: 10px;
+  }
+  .link3 {
+    padding: 10px;
+  }
+  .link4 {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 390px) {
+  .name-nav {
+    padding-left: 35px;
+  }
+  .para-title {
+    padding-left: 110px;
   }
 }

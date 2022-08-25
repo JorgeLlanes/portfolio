@@ -102,9 +102,29 @@
 @media (max-width: 640px) {
   .three-values p {
     padding-top: 180px;
-
   }
   .story-para {
     font-size: 10px;
+  }
+}
+
+@media (max-width: 414px) {
+  .myself-title {
+    font-size: 13vw;
+  }
+  .three-values p {
+    font-size: 12px;
+  }
+  .myself-para-flag {
+    display: flex;
+    flex-direction: column;
+  }
+  .img-mex {
+    width: 70vw;
+  }
+  .story-para {
+    font-size: 13px;
+    max-width: 70vw;
+    padding-top: 70px;
   }
 }

@@ -123,3 +123,9 @@ padding-left */
     font-size: 1.9vw;
   }
 }
+
+@media (max-width: 414px) {
+  .p-skills {
+    font-size: 4vw;
+  }
+}

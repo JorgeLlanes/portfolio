@@ -153,12 +153,44 @@ abbr {
 @media (max-width: 725px) {
   .links-social {
     font-size: 34px;
-    
   }
   .form {
     width: 45vw;
   }
   .form button {
     width: 44vw;
+  }
+}
+
+@media (max-width: 470px) {
+  .links-comments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 25px;
+  }
+}
+
+@media (max-width: 414px) {
+  .contact-title {
+    font-size: 14vw;
+  }
+  .tx {
+    font-size: 37px;
+  }
+  .form {
+    width: 55vw;
+  }
+  .form button {
+    width: 50vw;
+  }
+}
+
+@media (max-width: 390px) {
+  .form {
+    width: 60vw;
+  }
+  .form button {
+    width: 55vw;
   }
 }

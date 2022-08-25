@@ -88,3 +88,36 @@
     width: 20vw;
   }
 }
+
+@media (max-width: 590px) {
+  .works-container {
+    padding-top: 100px;
+  }
+}
+
+@media (max-width: 470px) {
+  .works-title {
+    padding-bottom: 40px;
+  }
+  .works-para {
+    font-size: 9px;
+  }
+}
+
+.works-title {
+  font-size: 3.9rem;
+}
+
+@media (max-width: 414px) {
+  .works-title {
+    font-size: 3.5rem;
+  }
+  .works-title2 {
+    font-size: 3.5rem;
+  }
+
+  .works-container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
