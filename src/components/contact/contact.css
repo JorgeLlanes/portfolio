@@ -88,7 +88,7 @@
   transition-duration: 400ms;
 }
 
-.form button::after {
+/* .form button::after {
   content: "";
   display: block;
   width: 0;
@@ -99,7 +99,7 @@
 }
 .form button:hover::after {
   width: 100%;
-}
+} */
 abbr {
   color: red;
 }
