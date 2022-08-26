@@ -32,7 +32,7 @@ function Projects() {
                 Hic mollitia inventore quod maxime, maiores delectus quis, quasi
                 distinctio tenetur, optio libero in.
               </p>
-              <a href="https://lively-travesseiro-3ac36e.netlify.app/">
+              <a href="https://github.com/JorgeLlanes/solBrillerV2">
                 <RiArrowRightUpLine />
               </a>
             </div>
@@ -62,7 +62,7 @@ function Projects() {
                 Hic mollitia inventore quod maxime, maiores delectus quis, quasi
                 distinctio tenetur, optio libero in.
               </p>
-              <a href="https://tasktracker2022.herokuapp.com/">
+              <a href="https://github.com/JorgeLlanes/JorgeTaskTracker">
                 <RiArrowRightUpLine />
               </a>
             </div>
@@ -94,7 +94,7 @@ function Projects() {
                 Hic mollitia inventore quod maxime, maiores delectus quis, quasi
                 distinctio tenetur, optio libero in.
               </p>
-              <a href="https://heroic-crostata-70b4a4.netlify.app/">
+              <a href="https://github.com/JorgeLlanes/E-Commerce-Project-Version-1-">
                 <RiArrowRightUpLine />
               </a>
             </div>
@@ -124,7 +124,7 @@ function Projects() {
                 Hic mollitia inventore quod maxime, maiores delectus quis, quasi
                 distinctio tenetur, optio libero in.
               </p>
-              <a href="https://precious-tartufo-16043b.netlify.app/">
+              <a href="https://github.com/JorgeLlanes/BonAppetit-Redesign/tree/main/bonappetit_redesign">
                 <RiArrowRightUpLine />
               </a>
             </div>
