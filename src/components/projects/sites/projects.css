@@ -24,6 +24,12 @@
   margin-left: 45vw;
 }
 
+.project5 {
+  width: 30%;
+  margin-top: 20vh;
+  margin-right: 45vw;
+}
+
 /** ----------------------------------------Num/Title START---------------------------------------- */
 
 .num-title {
@@ -185,6 +191,9 @@ padding-left */
   .project4 {
     width: 40%;
   }
+  .project5 {
+    width: 40%;
+  }
 }
 
 @media (max-width: 414px) {
@@ -205,6 +214,11 @@ padding-left */
     padding-bottom: 100px;
   }
   .project4 {
+    width: 65%;
+    margin: 10vw;
+    padding-bottom: 100px;
+  }
+  .project5 {
     width: 65%;
     margin: 10vw;
     padding-bottom: 5px;

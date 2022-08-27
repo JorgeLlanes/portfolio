@@ -128,4 +128,7 @@ padding-left */
   .p-skills {
     font-size: 4vw;
   }
+  .ticker {
+    padding: 200px 0px 0px 0px;
+  }
 }
