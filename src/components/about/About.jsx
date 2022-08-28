@@ -20,13 +20,15 @@ function About() {
         <div className="myself-para-flag">
           <img src={mexico} alt="Mexico..." className="img-mex" />
           <h4 className="story-para">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis
-            nisi aliquid eveniet. Architecto tenetur non perferendis consectetur
-            amet repellendus minus odit repudiandae error alias, ea veniam
-            voluptates velit neque cumque? Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Officiis ducimus eaque minima sequi
-            modi alias commodi doloremque recusandae quas quisquam cumque quo
-            numquam, hic sed eum nam vero tenetur explicabo!
+            Hello World! My name is Jorge Llanes, located in Austin, Texas. I
+            Aspire to be a full-stack software engineer. Everything I do every
+            day is aimed at achieving one goal - to fill people's daily lives
+            with visual and functional aesthetics. I do both Web-design and
+            Development. So the final result always turns out the way I intended
+            it. But I also like to work in a team, Where each is a professional
+            in their field and does their job perfectly. I am a son of immigrant
+            parents from Mexico, My mission is to break barriers in the tech
+            industry and bring tech to light in the Latino community 🇲🇽🇺🇸.
           </h4>
         </div>
       </section>
